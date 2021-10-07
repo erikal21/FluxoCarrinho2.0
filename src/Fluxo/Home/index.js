@@ -3,7 +3,7 @@ import {Container} from './styled'
 
 
 
-export default function Apresentacao() {
+export default function Home() {
  
 
 
