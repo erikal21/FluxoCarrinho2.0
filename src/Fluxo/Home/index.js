@@ -1,21 +1,15 @@
-
-import {Container} from './styled'
-
+import { Container} from "./styled";
 
 
-export default function Home() {
- 
+export default function Home(){
 
 
-  return (
 
-    <Container>
+    return (
+       <Container>
+           <div className="del"> <h2> Boas Compras!!</h2> </div>
 
-    <div className="title"> Seja bem vindo </div>
-
-    <div className="buton"> <button> Listar produtos </button> </div>
-
-    </Container>
-  );
-
+            <button className='botao'> Ver Produtos Cadastrados</button> 
+       </Container>
+    );
 }
